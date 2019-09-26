@@ -1,67 +1,36 @@
- <html>
+<!DOCTYPE html>
+<html>
 <head>
-<title>Forum Pendaftaran</title>
+    <title>Form</title>
+    <link rel="stylesheet" type="text/css" href="Daftar dan Login.css">
 </head>
-<style type="text/css">
-  body {
-  background-image:url(Images/asta.JPG);  
-  }
-</style>
-<center>
 <body>
+<div class="Daftar">
+    <center>
+    <h2 style="color: red">Daftar</h2>
+    </center>
+    <form>
+        
+        <input type="text" name="username" class="form_login" placeholder="Username">
+ 
+        
+        <input type="text" name="password" class="form_login" placeholder="Password">
 
-<form action="login.php" method="POST">
-          <br>
-<table border="0" style="center; color:#00000">
+        <input type="date" name="HBDY" class="form_login" placeholder="Birthday">
 
-<p align="center"><font size="6" color="#00FFFF"><u>FORMULIR PENDAFTARAN</u></font></p>
-<tr>
-    <td>Nama Lengkap</td>
-    <td>:</td>
-    <td><input type="text" size="35"></td>
+        <select class="form_login">
+            <option disabled selected>--Jenis Kelamin--</option>
+            <option value="laki-laki">Laki-Laki</option>
+            <option value="perempuan">Perempuan</option>
+        </select>
 
-</tr>
+        <input type="text" name="alamat" class="form_login" placeholder="Alamat">
 
-<tr>
-    <td>Tempat Lahir</td>
-    <td>:</td>
-    <td><input type="text" size="35"></td>
-</tr>
+        <input type="email" name="email" class="form_login" placeholder="Email">
 
-<tr>
-    <td>Tanggal Lahir</td>
-    <td>:</td>
-    <td><input type="Date"></td>
-</tr>
+        <input type="tel" name="hp" pattern="^\d{3}-\d{3}-\d{4}$"  class="form_login"placeholder="NO Telepon">
 
-<tr>
-    <td>Jenis Kelamin</td>
-    <td>:</td>
-    <td><input type="radio" name="jk" />Laki-Laki
-    <input type="radio" name="jk" />Perempuan</td>
-</tr>
-
-<tr>
-    <td>Alamat</td>
-    <td>:</td>
-    <td><textarea cols="27" rows="2" ></textarea></td>
-</tr>
-
-<tr>
-    <td>E-mail</td>
-    <td>:</td>
-    <td><input type="email" size="35"></td>
-</tr>
-<tr>
-    <td>No. Telepon</td>
-    <td>:</td>
-    <td><input type="Number" size="35">
-    </td>
-</tr>
-<tr>
-    <td>Kota</td>
-    <td>:</td>
-    <td><select>
+        <select class="form_login">
       <option>Select Kota</option>
       <option>Jakarta</option>
      <option>Surabaya</option>
@@ -70,18 +39,31 @@
       <option>Jember</option>
       <option>Madiun</option>
       <option>Situbondo</option>
-      </select></td>
-</tr>
-<center>
-<tr>
-    <td></td>
-    <td></td>
-    <td><input type="submit" name="submit" value="Daftar"/>
-</tr>
-</center>
-</table>
-<img src="">
-</form>
+      </select>
+
+      <br>
+      <br>
+
+ 
+        <input type="submit" class="tombol_login" value="Daftar" onclick="alert('Berhasil Mendaftar');"/>
+
+    </form>
+    
+</div>
+
+<div class="login">
+    <form>
+        <center>
+        <h2 style="color: red">Login</h2>
+        </center>
+        <input type="text" name="username" class="form_login" placeholder="Username">
+
+        <input type="text" name="password" class="form_login" placeholder="Password">
+        <br>
+        <br>
+
+        <input type="submit" class="tombol_login" value="Login" onclick="alert('Selamat Datang');"/>
+
+    </form>
 </body>
-</html>  
-</center>
+</html>
