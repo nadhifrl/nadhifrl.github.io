@@ -1,0 +1,65 @@
+body{
+    padding-top: 10px; 
+    background-image: url(Images/asta.JPG);
+    background-size: cover;
+    font-family: sans-serif;
+}
+ 
+.tulisan_login{
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+ 
+.Daftar{
+    width: 34%;
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255);
+    padding: 20px;
+    float: left;
+    border-radius: 40px;
+}
+.login{
+    width: 20%;
+    background: transparent;
+    border: 5px solid rgba(255, 255, 255);
+    padding: 20px;
+    float: right;
+    border-radius: 40px;
+}
+
+label{
+    font-size: 11pt;
+    color: white;
+}
+ 
+.form_login{
+    box-sizing : border-box;
+    width: 120%;
+    padding: 5px;
+    font-size: 10pt;
+    margin-bottom: 20px;
+}
+.tombol_login{
+    background: brown;
+    color: white;
+    font-size: 11pt;
+    width: 30%;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 20px;
+}
+h1{
+
+    background-color: orange;
+    text-align: center;
+    color: green;
+    padding: 10px;
+    border-radius: 7px;
+}
+    @media screen and (max-width:1000px) {
+    .Daftar , .login {width:90%;}}
+    .form_login{
+        width: 100%;
+        margin: 8px 0;
+    }
