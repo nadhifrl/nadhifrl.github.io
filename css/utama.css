@@ -3,7 +3,7 @@
         padding:0px;
     }
     body {
-    background-image:url(Image/wallpaper.jpg); 
+    background-image:url(assets/img/wallpaper.jpg); 
     }
 
     .container{width: 1px; margin:auto;}
