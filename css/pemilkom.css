@@ -1,39 +1,12 @@
 body{
     padding-top: 170px; 
-    background-image: url(assets/img/Login.jpg);
+    background-image: url(assets/img/Login.JPG);
     background-size: cover;
     font-family: sans-serif;
 }
 
 .Login{
 	font-family:'Segoe UI',cursive;
-}
-
-.font{
-    font-family: 'Trebuchet MS',cursive;
-}
-label{
-    font-size: 100px;
-    color: white;
-}
-
-.panah{
-    float: right;
-
-
-}
-
-.icon{
-    width: 100%;
-    height: auto;
-}
-h3 {
-    color: #ffffff;
-    position: absolute;
-    bottom: -10px;
-    font-size: 25px;
-    width: 100%;
-    text-align: center;
 }
 
 .Daftar{
