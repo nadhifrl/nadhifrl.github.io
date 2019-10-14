@@ -1,4 +1,6 @@
-@media screen and (min-width:500px) and (max-widht:600px){
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+@media only screen and (min-width: 992px) {
     #maincontent{
 		width: auto;
 		float: none;
