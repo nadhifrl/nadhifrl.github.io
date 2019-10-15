@@ -47,6 +47,51 @@ h1{text-align: center; font-family: calibri}
     border-radius: 100px;
     text-align: center;
     position : absolute;
+    margin-left: -665px;
+    margin-top: 98px;
+    z-index: 1;
+    }
+
+.Daftar1{
+    width: 60px;
+    height: 20px;
+    background: white;
+    border: 4px solid rgb(100, 93, 93);
+    padding: 20px;
+    border-radius: 100px;
+    text-align: center;
+    position : absolute;
+    margin-left: -526px;
+    margin-top: -111px;
+    z-index: 1;
+    }
+
+.Daftar2{
+    width: 60px;
+    height: 20px;
+    background: white;
+    border: 4px solid rgb(100, 93, 93);
+    padding: 20px;
+    border-radius: 100px;
+    text-align: center;
+    position : absolute;
+    margin-left: -382px;
+    margin-top: -36px;
+    z-index: 1;
+    }
+
+.Daftar3{
+    width: 60px;
+    height: 20px;
+    background: white;
+    border: 4px solid rgb(100, 93, 93);
+    padding: 20px;
+    border-radius: 100px;
+    text-align: center;
+    position : absolute;
+    margin-left: -146px;
+    margin-top: -200px;
+    z-index: 1;
     }
 
 .text2{
@@ -86,6 +131,3 @@ h1{text-align: center; font-family: calibri}
     margin-top: -20px;
 }
 
-.bulat1{
-    margin-left: 100px;
-}
