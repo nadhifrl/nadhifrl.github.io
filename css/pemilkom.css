@@ -1,4 +1,4 @@
-@media only screen and (min-width: 480px) and (max-width: 767px) {
+@media only screen and (min-width: 360px) and (max-width: 640px) {
     #maincontent{
 		width: auto;
 		float: none;
@@ -6,8 +6,9 @@
 	#sidebar{
 		width: auto;
 		float: none;
-	}
+    }
 }
+
 body{
     padding-top: 170px; 
     background-image: url(assets/img/Login.JPG);
@@ -24,7 +25,9 @@ body{
     height: 240px;
     background: black;
     border: 5px solid rgba(255, 255, 255);
+    margin:auto;
     padding: 20px;
     float: center;
     border-radius: 30px;
+    position: relative;
 }
