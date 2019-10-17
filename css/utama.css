@@ -1,3 +1,13 @@
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+    #maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+    }
+}
 * {
     margin:0px;
     padding:0px;
@@ -28,7 +38,7 @@ h1{text-align: center; font-family: calibri}
     }
 
 .biru {
-    background-color: blue;
+    background-color:#192E75;
     
 }
 
@@ -89,8 +99,8 @@ h1{text-align: center; font-family: calibri}
     border-radius: 100px;
     text-align: center;
     position : absolute;
-    margin-left: -146px;
-    margin-top: -200px;
+    margin-left: -148px;
+    margin-top: -170px;
     z-index: 1;
     }
 
