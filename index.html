@@ -1,35 +1,43 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/pemilkom.css">
 </head>
 <style type="text/css">
   body {
-  background-image:url(assets/img/Login.jpg);  
-  background-size:cover;
+    background-image: url(assets/img/Login.JPG);
   }
 </style>
 <center>
     <body>
         <div class="Daftar">
-        <div class= "Login" style="width: 250px; height: 220px; margin-top:-4%;">
-            <p align="center"><font size="7" color="#FFFFFF"><b>Login</b></font></p>
-            <br>
-            <div style="margin-bottom: 10px">
-                <input type="Username" name="Username" placeholder="Username" size= "34" style="height: 25px">
-            </div>
-            <div style="margin-bottom: 20px">
-                <input type="Password" name="Password" placeholder="Password" size="34" style="height: 25px">
-            </div>
-            <div style="float:left; display: inline-block; margin-top: -20px">
-                <a href="LupaPassword.html" style="color: white">Lupa Password ?</a>
-            </div>
-            <div style="float: right; margin-right: -10px;">
-                <A HREF="home.html"><img src="assets/img\panah.png" width="50px"></A>
-            </div>            
-        </div>
+            <form>
+                    <div class= "Login" style="width: 250px; height: 220px; margin-top:-12%;">
+                            <p align="center"><font size="7" color="#FFFFFF"><b>Login</b></font></p>
+                            <br>
+                            <div style="margin-bottom: 10px">
+                                <input type="Username" id="Username" placeholder="Username" size= "34" style="height: 25px" required>
+                            </div>
+                            <div style="margin-bottom: 20px">
+                                <input type="Password" value="" id="Password" placeholder="Password" size="34" style="height: 25px" required>
+                                      <div style="float: left; margin-left: -4px;">
+                                        <input type="checkbox" id="chk">
+                                        <label id="showhide" class="label" style="color: red;">Show Password</label>
+                                      </div>
+                            </div>
+                            <div style="float:left; display: inline-block; margin-top: 1px; margin-right:100px;">
+                                <a href="LupaPassword.html" style="color: white">Lupa Password ?</a>
+                            </div>
+                            <div style="float: right; margin-right: -10px;">
+                                <button type="button" value="Login" onclick="Login()"><img src="assets/img/submit1.jpg" width="37px"></button>
+                            </div>            
+                        </div>
+            </form>
+        
     </div>
+</center>
 </body>
+<script src="javascript/show.js"></script>
 </html>
