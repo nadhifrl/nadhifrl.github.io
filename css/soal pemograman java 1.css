@@ -19,7 +19,6 @@
 
 .text2{
     float: right;
-    margin-right: 10px;
 }
 .nav{
     margin: auto;
@@ -47,6 +46,10 @@
     text-decoration: none;
 }
 
+.nav ul li a:hover{
+    background-color: #fff;
+}
+
 .font1{
     margin-top: 20px;
     position: relative;
@@ -60,7 +63,7 @@
 .background{
     margin-top:-10px;
     width: 100%;
-    height: 123%;
+    height: 120%;
     position: absolute;
 }
 
@@ -69,26 +72,29 @@
 }
 
 .kotak1{
-    border: 1px solid black; 
+    border: 0px solid black; 
     background-color: white;
     width: 360px; 
     height: 600px; 
     float: right; 
     margin-right: 60px;
+    box-shadow: 0px 0px 5px #404040;
 }
 
 .kotak2{
-    border: 1px solid black;
+    border: 0px solid black;
     background-color: white; 
     width: 600px; 
     height: 380px;
+    box-shadow: 0px 0px 5px #404040;
 }
 
 .kotak3{
-    border: 1px solid black; 
+    border: 0px solid black; 
     background-color: white; 
     width: 600px; 
     height: 200px;
+    box-shadow: 0px 0px 5px #404040;
 }
 
 .posisi{
@@ -96,4 +102,4 @@
     z-index: 100;
     margin-top: -100px;
     width: 100%;
-    }
+}
