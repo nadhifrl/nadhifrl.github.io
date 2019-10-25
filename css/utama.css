@@ -1,7 +1,18 @@
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+    #maincontent{
+		width: auto;
+		float: none;
+	}
+	#sidebar{
+		width: auto;
+		float: none;
+    }
+}
 * {
     margin:0px;
     padding:0px;
 }
+
 .container{width: 1px; margin:auto;}
 th{padding: 0px; background-color: orange; color:white; font-family: calibri}
 td{text-align: center; background-color: #fbf7f7}
@@ -50,7 +61,7 @@ h1{text-align: center; font-family: calibri}
     margin-left: -665px;
     margin-top: 98px;
     z-index: 1;
-    }
+}
 
 .Daftar1{
     width: 60px;
@@ -64,7 +75,7 @@ h1{text-align: center; font-family: calibri}
     margin-left: -526px;
     margin-top: -111px;
     z-index: 1;
-    }
+}
 
 .Daftar2{
     width: 60px;
@@ -78,7 +89,7 @@ h1{text-align: center; font-family: calibri}
     margin-left: -382px;
     margin-top: -36px;
     z-index: 1;
-    }
+}
 
 .Daftar3{
     width: 60px;
@@ -92,13 +103,6 @@ h1{text-align: center; font-family: calibri}
     margin-left: -148px;
     margin-top: -170px;
     z-index: 1;
-    }
-
-.text2{
-    float: right;
-    margin-right: 5px;
-    margin-top: -5px;
-
 }
 
 .text1{
@@ -107,19 +111,21 @@ h1{text-align: center; font-family: calibri}
     text-align: end;
     margin-right: 10px;
     margin-top: -5px;
-
 }
+.text2{
+    float: right;
+    margin-top: -5px;
+}
+
 .nav{
     position: relative;
     padding: 10px;
     margin-bottom: 20px;
-
 }
 .kiri{
     float: left;
     margin:-170px;
     margin-top: -280px;
-    padding: 1opx;
     position: absolute;
 }
 
