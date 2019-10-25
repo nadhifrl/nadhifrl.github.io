@@ -1,0 +1,106 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+
+.font{
+    font-family: 'Trebuchet MS',cursive;
+    font-style: italic;
+    }
+
+.biru {
+    background-color:#192E75;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+    height: 30px;
+}
+
+.text2{
+    float: right;
+}
+.nav{
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI',cursive;
+    width: 100%;
+    font-size: 19px;
+    height: 200px;
+
+}
+.nav ul{
+    background:aquamarine;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    background: white;
+}
+
+.Judul{
+    position: relative;
+    margin-top: -135px;
+    margin-left: 40px;
+
+}
+
+.tulisan{
+    font-family:'Segoe UI';
+}
+
+.badge {
+    display: inline-block;
+    padding: .25em .4em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25rem;
+    margin-top: 20px;
+}
+
+.badge-secondary {
+    background-color: transparent!important;
+    border: 1px solid #aaa;
+    color: #777!important;
+    padding: 2px 3px 2px 3px;
+}
+
+.card-body {
+    margin-top: 10px;
+    margin-left: 383px;
+}
+
+.cover-challenge {
+    max-height: 300px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -160px;
+}
+.container-fluid {
+    position: relative;
+}
+
+.cover-challenge img {
+    width: 100%;
+}
+
