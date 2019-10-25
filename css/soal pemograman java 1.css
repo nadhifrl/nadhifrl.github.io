@@ -72,7 +72,7 @@
 }
 
 .kotak1{
-    border: 0px solid black; 
+    border: 1px solid black; 
     background-color: white;
     width: 360px; 
     height: 600px; 
@@ -81,14 +81,14 @@
 }
 
 .kotak2{
-    border: 0px solid black;
+    border: 1px solid black;
     background-color: white; 
     width: 600px; 
     height: 380px;
 }
 
 .kotak3{
-    border: 0px solid black; 
+    border: 1px solid black; 
     background-color: white; 
     width: 600px; 
     height: 200px;
