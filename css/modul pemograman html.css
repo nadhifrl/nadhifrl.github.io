@@ -17,9 +17,8 @@
     height: 30px;
 }
 
-.text2{
+.text1{
     float: right;
-    margin-right: 10px;
 }
 .nav{
     margin: auto;
@@ -47,10 +46,21 @@
     text-decoration: none;
 }
 
+.nav ul li a:hover{
+    background: white;
+}
+
 .font1{
     margin-top: 20px;
     position: relative;
     margin-left: 40px;
+}
+
+.font2{
+    margin-top: -3px;
+    position: relative;
+    margin-left: 40px;
+    z-index: 1;
 }
 
 .tulisan{
@@ -65,11 +75,10 @@
     position: absolute;
 }
 
-.font2{
-    margin-top: -3px;
+.Judul{
     position: relative;
-    margin-left: 40px;
-    z-index: 1;
+    margin-top: 10px;
+
 }
 
 .element{
