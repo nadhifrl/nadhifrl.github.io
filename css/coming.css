@@ -1,0 +1,105 @@
+* {
+    margin:0px;
+    padding:0px;
+}
+
+.font{
+    font-family: 'Trebuchet MS',cursive;
+    font-style: italic;
+    }
+
+.biru {
+    background-color:#192E75;
+}
+
+.aquamarine {
+    background-color: aquamarine;
+    height: 30px;
+}
+
+.text2{
+    float: right;
+    margin-right: 10px;
+}
+.nav{
+    margin: auto;
+    text-align: center;
+    font-family: 'Segoe UI',cursive;
+    width: 100%;
+    font-size: 19px;
+    height: 200px;
+
+}
+.nav ul{
+    background:aquamarine;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+    padding: 0px;
+}
+.nav ul li{
+    float: left;
+}
+.nav ul li a{
+    display: block;
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+.nav ul li a:hover{
+    background: white;
+}
+.background{
+    width: 100%;
+    margin-top: -160px;
+    height: 120%;
+    position: absolute;
+}
+.Judul{
+    position: relative;
+    margin-left: 5px;
+    color: white;
+    font-family: “Courier New”, Courier, monospace; 
+    font-size: 25px;
+    text-align: center;
+}
+.tulisan{
+    font-family:'Segoe UI';
+    position: relative;
+} 
+#waktumundur {
+    color: rgb(23, 34, 184);
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;
+    font-family: “Courier New”, Courier, monospace;
+    border: 2px solid #ccc;
+    border-radius: 10px;
+    text-shadow: 1px 1px 2px lightblue, 0 0 25px blue, 0 0 5px lightblue;
+    background-color: rgba(255, 255, 255, 0.5);
+
+}
+.digit {
+    color: black;
+}
+.judul {
+    color: black;
+}
+
+.coming{
+    border: 3px solid black; 
+    width: 200px; 
+    padding: 10px 50px; 
+    box-shadow: 5px 10px 20px #030303;
+    color: white;
+}
+
+.nono{
+    width: 200px;
+    height: 5px;
+    margin-top: 20px;
+    background: white;
+    background-position: center;
+}
