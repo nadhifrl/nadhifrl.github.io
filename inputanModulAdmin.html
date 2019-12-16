@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Modul</title>
+	<link rel="stylesheet" type="text/css" href="css/modul.css">
+	<style type="text/css">
+		body {
+        background-image:url(assets/img/background.png); 
+        }
+	</style>
+</head>
+<body>
+<div class="font">
+	<div class="biru">
+		<h2 style="color: #DEDCDC">Pembelajaran</h2>
+		<h2 style="color: #DEDCDC;padding-left: 15px">Ilmu Komputer</h2>
+		<img src="assets/img/icon.png" height="63px" width="73px" style="float:right;margin-top: -63px;">
+	</div>
+</div>
+<div class="tulisan">
+	<div class="nav">
+		<ul>
+			<li><a href="homeAdmin.html"><h5>HOME</h5></a></li>
+			<li><a href="SoalAdmin.html"><h5>SOAL</h5></a></li>
+			<li><a href="EventAdmin.html"><h5>EVENT</h5></a></li>
+			<li><a href="ChallangeAdmin.html"><h5>CHALLENGE</h5></a></li>
+			<li><a href="ModulAdmin.html"><h5>MODUL</h5></a></li>
+			<div class="text2">
+				<li><a href="loginAdmin.html"><h5>Sign Out</h5></a></li>
+			</div>
+		</ul>
+    </div>
+    
+    <div class="background">
+    </div>
+    <center>
+            <h1 style="border: 0px solid black; width: 230px; padding: 10px 10px; background-color:#DED0D0; box-shadow: 0px 0px 5px #000000;margin-top: -110px;">New MODUL</h1>
+    </center>
+	<center>
+		<div style="border: 2px solid black;padding: 30px 0px 0px 50px;width: 350px;color: #2095F2;font-weight: bold;text-decoration: none;box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);background: rgba(0,0,0,.8);position: relative;text-align: initial;margin-top: 20px;">
+			<div style="margin-top: 15px;">
+    			<p>Select Type of Modul</p>
+                    <select>
+                        <option>CSS</option>
+                    </select>
+			</div>
+			<div style="margin-top: 15px;">
+				<p>Upload Image of Modul: </p>
+                    <input type="file" name="file" style="color: black;">
+			</div>
+			<div style="margin-top: 15px;">
+    			<p>Modul Description: </p>
+                    <textarea placeholder="Add Deskripsi" style="width: 300px; height: 100px;"></textarea>
+			</div>
+			<div style="padding:20px ;margin-top: 10px;margin-left: 100px;">
+    			<a href="TambahModulAdmin.html"><button type="submit" class="tombol" onclick="alert('Saved Data')" >SAVE</button></a>  
+			</div>
+		</div>
+	</center>
+</div>
+</body>
+</html>
