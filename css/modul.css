@@ -73,3 +73,18 @@
 .tulisan{
     font-family:'Segoe UI';
 }
+
+.tambah{
+    border: 0px solid black; 
+    height: 40px; width: 130px; 
+    margin-top: 80px; 
+    color: white;
+    background-color:#00b33c;
+    margin-left: 68px;
+}
+
+.tambah:hover{
+    background-color: #00b33c;
+    opacity: 0.7;
+    filter:alpha(opacity=50);
+}
