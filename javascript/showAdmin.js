@@ -20,7 +20,7 @@ var masukanpass = document.getElementById('Password'),
      function Login() {
         var nama = document.getElementById("Username").value;
         var password = document.getElementById("Password").value;
-        if (nama != "pemri123" && password !="facebook123") {
+        if (nama != "nadhif123" && password !="fb123") {
             alert('Username dan Password anda salah');
         }else{
             alert('Login Berhasil');
@@ -39,3 +39,23 @@ var masukanpass = document.getElementById('Password'),
             document.location="loginAdmin.html"
         }
     }
+
+    
+    function check_empty() {
+        var email=document.getElementById('email').value;
+        if (email == "") {
+        alert("No email address specified.");
+        } else {
+        document.getElementById('forgetpass').submit("login.html");
+        alert("Your password has been reset, please check Your email");
+        window.location.href = "loginAdmin.html";
+        }
+        }
+        //Function To Display Popup
+        function show_popup() {
+        document.getElementById('isipopup').style.display = "block";
+        }
+        //Function to Hide Popup
+        function hide_popup(){
+        document.getElementById('isipopup').style.display = "none";
+        }
