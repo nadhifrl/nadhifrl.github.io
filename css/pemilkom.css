@@ -1,4 +1,19 @@
-@media only screen and (min-width: 360px) and (max-width: 640px) {
+#baba{
+    width: 20%;
+
+}
+#Username{
+    width: 100%;
+}
+#Password{
+    width: 100%;
+    
+}
+#nob{
+    width: 18%;
+}
+
+@media only screen and (max-width: 700px) {
     #maincontent{
 		width: auto;
 		float: none;
@@ -7,12 +22,17 @@
 		width: auto;
 		float: none;
     }
+    #baba{
+        width: 50%;
+    }
+    #nob{
+        width: 20%;
+    }
+
 }
 
 body{
     padding-top: 170px; 
-    background-image: url(assets/img/Login.JPG);
-    background-size: cover;
     font-family: sans-serif;
 }
 
@@ -29,5 +49,4 @@ body{
     padding: 20px;
     float: center;
     border-radius: 30px;
-    position: relative;
 }
