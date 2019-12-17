@@ -1,4 +1,4 @@
-var target_date = new Date("oct 18, 2019").getTime();
+var target_date = new Date("dec 18, 2019").getTime();
     var days, hours, minutes, seconds;
     var countdown = document.getElementById("countdown");
     setInterval(function () {
