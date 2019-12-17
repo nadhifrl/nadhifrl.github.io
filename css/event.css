@@ -120,7 +120,7 @@
     background: white; 
     position: relative; 
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.25); 
-    margin-left: 110px; 
+    margin-left: 520px; 
     margin-top: 60px;
 }
 
@@ -131,7 +131,7 @@
     background: white; 
     position: relative; 
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.25); 
-    margin-left: 510px; 
+    margin-left: 520px; 
     margin-top:-580px;
 }
 
@@ -142,6 +142,6 @@
     background: white; 
     position: relative; 
     box-shadow: 0 .5rem 1rem rgba(0,0,0,.25); 
-    margin-left: 910px; 
+    margin-left: 520px; 
     margin-top:-580px;
 }
