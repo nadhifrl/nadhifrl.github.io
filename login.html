@@ -7,7 +7,7 @@
 </head>
 <style type="text/css">
 	body {
-		background-image: url(assets/img/Login.jpg);
+		background-image: url(assets/img/Login.JPG);
 		background-size:cover;
 	}
 </style>
@@ -31,7 +31,7 @@
 				</div>
 			</div>
 			<div style="float:left; display: inline-block; margin-top: 7px;">
-				<a href="LupaPasswor.html" style="color: white">Lupa Password ?</a>
+				<a href="#" id="popup" onclick="show_popup()" style="color: white;">Lupa Password ?</a>
 			</div>
 			<div style="float: right;border: 1px solid white; margin-top: 10%;" id="nob">
 				<button type="button" value="Login" onclick="Login()"><img src="assets/img/submit1.jpg" width="100%"></button>
@@ -39,7 +39,19 @@
 		</div>
 	</form>
 </div>
+<div id="isipopup">
+	<div id="popupnya">
+		<form action="#" id="forgetpass" method="post" name="forgetpass">
+			<img id="close" onclick ="hide_popup()">
+			<h2 class="forget">Lupa Password</h2>
+			<h5 class="h5">Enter your login email address below</h5>
+			<input type="email" id="email" name="email" placeholder="Email">
+			<a onclick="check_empty()" id="submitpopup">Request Password Reset</a>
+		</form>
+	</div>
+</div>
 </center>
 </body>
+<!-- <script src="assets/javascript/script.js"></script> -->
 <script src="javascript/show.js"></script>
 </html>
