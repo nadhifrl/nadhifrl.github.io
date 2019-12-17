@@ -36,53 +36,36 @@
 		<h1 style="border: 0px solid black; width: 120px; padding: 10px 10px 10px 10px; background-color:#DED0D0; box-shadow: 0px 0px 5px rgba(0,0,0,.45);">EVENT</h1>
 		</center>
 	</div>
-	<div class="kotak1">
-		<img src="assets/img/seminar1.png" style="max-width: 100%; height: auto;">
-		<div class="card-body">
-			<span class="badge badge-secondary mb-3">Seminar</span>
-			<h5 style="font-size: 1.25rem;">
-				<a href="Seminar1Admin.html" style="text-decoration: none;font-weight: 1!important;color: #ff5483!important;">Sangkep GameDev Bali Oktober 2019</a>
-			</h5>
-			<span class="tipe">oleh: Gamedev Bali</span>
-			<div style="margin-top: 10px;">
-				<p>
-					Sharing Akhir Pekan. Dimana kita bisa mendengar / sharing pengalaman, problem solving, meet & greet, dan sejenisnya
-				</p>
-			</div>
-		</div>
+	<div class="kotak1" id="kotak1">
 	</div>
-	<div class="kotak2">
-		<img src="assets/img/seminar2.png" style="max-width: 100%; height: auto;">
-		<div class="card-body">
-			<span class="badge badge-secondary mb-3">Seminar</span>
-			<h5 style="font-size: 1.25rem;">
-				<a href="Seminar2Admin.html" style="text-decoration: none;font-weight: 1!important;color: #ff5483!important;">Build your own startup for a better generation</a>
-			</h5>
-			<span class="tipe">oleh: Code For Asia chapter</span>
-			<div style="margin-top: 10px;">
-				<p>
-					Code for Asia believes that coding is the next generation literacy.
-				</p>
-			</div>
-		</div>
-	</div>
-	<div class="kotak3">
-		<img src="assets/img/challange.jpg" style="max-width: 100%; height: auto;margin-top: 100px;">
-		<div class="card-body" style="margin-top: 51px;">
-			<span class="badge badge-secondary mb-3">Challenge</span>
-			<h5 style="font-size: 1.25rem;">
-				<a href="ChallangeAdmin.html" style="text-decoration: none;font-weight: 1!important;color: #ff5483!important;">Challenge Berhadiah</a>
-			</h5>
-			<div style="margin-top: 27px;">
-				<span class="tipe">oleh: PEMILKOM</span>
-			</div>
-			<div style="margin-top: 10px;">
-				<p>
-					Pecahkan Kodingan yang telah kami berikan !! Dapatkan juga hadiah misterius dari penyelesaian kodingan nya.
-				</p>
-			</div>
-		</div>
+	<div id="page" style="width: 100%;height: 100%;text-align: center;display: inline-block;position: relative;">
+		<a href="#" class="klik" id="1" style="font-size: 30px;text-decoration: none;">1 </a>
+		<a href="#"class="klik" id="2" style="font-size: 30px;text-decoration: none;">2 </a>
+		<a href="#"class="klik" id="3" style="font-size: 30px;text-decoration: none;">3 </a>
+
 	</div>
 </div>
 </body>
+<script src="jquery/jquery-3.4.1.min.js"></script>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+		$('.klik').click(function(){
+			var menu = $(this).attr('id');
+			if(menu == "1"){
+				$('#kotak1').load('kotak1.html');						
+			}else if(menu == "2"){
+				$('#kotak1').load('kotak2.html');		
+			}
+			else if(menu == "3"){
+				$('#kotak1').load('kotak3.html');		
+			}
+		});
+ 
+ 
+		// halaman yang di load default pertama kali
+		$('#kotak1').load('kotak1.html');						
+ 
+	});
+</script>
 </html>
